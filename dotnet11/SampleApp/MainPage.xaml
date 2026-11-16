@@ -1,0 +1,12 @@
+﻿<ContentPage x:Class="SampleApp.MainPage">
+
+    <CollectionView
+        x:Name="TheList">
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Button Text="Test" HeightRequest="200" WidthRequest="150"></Button>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+
+</ContentPage>
